@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vm, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+
+            
+
+            /* lighter normal bold bolder*/
+        }
+        h1{
+            /* shorthand
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            font-size: 3em;
+            font-style: italic;      
+            */
+            font: italic bold 3em Arial, Helvetica, sans-serif;
+        }
+        h2{
+            font: italic bold 2em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non velit atque vero eaque enim cumque, nemo vitae minima fugiat saepe repellat nesciunt illum repudiandae hic labore ad dignissimos quas veniam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam repellendus laboriosam enim quia quibusdam blanditiis facilis mollitia in nostrum eveniet distinctio numquam laudantium tempore eum saepe, aperiam quos ut doloribus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est aliquid quam temporibus vel optio odio. Incidunt magni quidem quas, sed iste soluta suscipit delectus perspiciatis porro eaque vel saepe voluptate!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi perferendis odio officiis facilis assumenda similique pariatur dicta voluptas eius praesentium asperiores fuga aspernatur sit non soluta nostrum, ratione delectus neque.</p>
+</body>
+</html>
