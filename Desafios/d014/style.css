@@ -11,7 +11,7 @@ thead, tfoot{
     color: white;
     font-weight: bold;
 }
-.media{
+tr.media{
     background-color: gray;
     color: white;
     font-weight: bold;
